@@ -132,7 +132,7 @@
           "TeleportEscapeeInCage": 1.0,
           "HealEscapeeTeammate": 1.0,
           "ReleaseEscapeeFromCage": 1.0,
-          "OpenGate": 1.0,
+          "OpenGate": 1.00,
           "PutObstacle": 1.0,
           "DestroyObstacle": 1.0,
           "SelfHealing": 1.0
