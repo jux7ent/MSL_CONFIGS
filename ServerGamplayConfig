@@ -1,6 +1,6 @@
 {
   "_charactersConfig": {
-    "_baseCatcherMovementSpeed": 3.5,
+    "_baseCatcherMovementSpeed": 4.0,
     "_baseCatcherRotationSpeed": 8.0,
     "_catcherConfigByType": {
       "None": {
