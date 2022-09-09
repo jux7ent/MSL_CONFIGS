@@ -26,8 +26,8 @@
         "_attackDurationInMills": 1000,
         "_successAttackAnimationDuration": 2000,
         "_failedAttackAnimationDuration": 200,
-        "_movementSpeedMultiplier": 0.4,
-        "_rotationSpeedMultiplier": 1.0,
+        "_movementSpeedMultiplier": 3.0,
+        "_rotationSpeedMultiplier": 0.2,
         "_interactionMultiplierByType": {
           "None": 1.0,
           "LightCampfire": 1.0,
