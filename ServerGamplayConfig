@@ -157,7 +157,7 @@
       },
       "Angel": {
         "_maxHealth": 2,
-        "_movementSpeedMultiplier": 1.0,
+        "_movementSpeedMultiplier": 2.5,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
           "None": 1.0,
