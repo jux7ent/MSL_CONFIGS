@@ -191,7 +191,7 @@
       },
       "GolemEarth": {
         "_maxHealth": 2,
-        "_movementSpeedMultiplier": 0.95,
+        "_movementSpeedMultiplier": 2.95,
         "_rotationSpeedMultiplier": 3.0,
         "_interactionMultiplierByType": {
           "None": 0.3,
