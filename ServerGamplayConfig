@@ -362,7 +362,7 @@
     "_rollBuffConfig": {
       "_movementBuffMultiplier": 1.5,
       "_rotationBuffMultiplier": -0.7,
-      "_durationInMills": 4000
+      "_durationInMills": 5000
     },
     "_jumpBuffConfig": {
       "_movementMultiplier": 3.0,
