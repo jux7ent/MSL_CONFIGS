@@ -1,6 +1,6 @@
 {
   "_charactersConfig": {
-    "_baseCatcherMovementSpeed": 2.0,
+    "_baseCatcherMovementSpeed": 3.0,
     "_baseCatcherRotationSpeed": 8.0,
     "_catcherConfigByType": {
       "None": {
@@ -26,7 +26,7 @@
         "_attackDurationInMills": 1000,
         "_successAttackAnimationDuration": 2000,
         "_failedAttackAnimationDuration": 200,
-        "_movementSpeedMultiplier": 2.0,
+        "_movementSpeedMultiplier": 1.3,
         "_rotationSpeedMultiplier": 3.0,
         "_interactionMultiplierByType": {
           "None": 1.0,
@@ -64,7 +64,7 @@
         "_attackDurationInMills": 1000,
         "_successAttackAnimationDuration": 2000,
         "_failedAttackAnimationDuration": 200,
-        "_movementSpeedMultiplier": 5.0,
+        "_movementSpeedMultiplier": 1.5,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
           "None": 1.0,
@@ -102,7 +102,7 @@
         "_attackDurationInMills": 833,
         "_successAttackAnimationDuration": 1500,
         "_failedAttackAnimationDuration": 800,
-        "_movementSpeedMultiplier": 3.0,
+        "_movementSpeedMultiplier": 1.8,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
           "None": 0.3,
