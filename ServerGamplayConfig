@@ -1,6 +1,6 @@
 {
   "_charactersConfig": {
-    "_baseCatcherMovementSpeed": 2.5,
+    "_baseCatcherMovementSpeed": 4.0,
     "_baseCatcherRotationSpeed": 8.0,
     "_catcherConfigByType": {
       "None": {
@@ -118,7 +118,7 @@
         }
       }
     },
-    "_baseEscapeeMovementSpeed": 2.0,
+    "_baseEscapeeMovementSpeed": 3.2,
     "_baseEscapeeRotationSpeed": 8.0,
     "_escapeeConfigByType": {
       "None": {
