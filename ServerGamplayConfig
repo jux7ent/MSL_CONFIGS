@@ -4,6 +4,8 @@
     "_baseCatcherRotationSpeed": 8.0,
     "_catcherConfigByType": {
       "None": {
+        "_attackRadius": 3.0,
+        "_attackAngleInDeg": 90.0,
         "_attackDurationInMills": 833,
         "_successAttackAnimationDuration": 1500,
         "_failedAttackAnimationDuration": 800,
@@ -23,6 +25,8 @@
         }
       },
       "SkeletonGiant": {
+        "_attackRadius": 3.0,
+        "_attackAngleInDeg": 90.0,
         "_attackDurationInMills": 1000,
         "_successAttackAnimationDuration": 2000,
         "_failedAttackAnimationDuration": 200,
@@ -42,6 +46,8 @@
         }
       },
       "BatLord": {
+        "_attackRadius": 3.0,
+        "_attackAngleInDeg": 90.0,
         "_attackDurationInMills": 1000,
         "_successAttackAnimationDuration": 2000,
         "_failedAttackAnimationDuration": 200,
@@ -61,6 +67,8 @@
         }
       },
       "SkeletonMage": {
+        "_attackRadius": 3.0,
+        "_attackAngleInDeg": 90.0,
         "_attackDurationInMills": 1000,
         "_successAttackAnimationDuration": 2000,
         "_failedAttackAnimationDuration": 200,
@@ -80,6 +88,8 @@
         }
       },
       "Reaper": {
+        "_attackRadius": 3.0,
+        "_attackAngleInDeg": 90.0,
         "_attackDurationInMills": 1000,
         "_successAttackAnimationDuration": 2000,
         "_failedAttackAnimationDuration": 200,
@@ -99,6 +109,8 @@
         }
       },
       "DeathMage": {
+        "_attackRadius": 3.0,
+        "_attackAngleInDeg": 90.0,
         "_attackDurationInMills": 833,
         "_successAttackAnimationDuration": 1500,
         "_failedAttackAnimationDuration": 800,
