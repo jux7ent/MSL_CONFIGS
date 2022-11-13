@@ -135,6 +135,12 @@
     "_escapeeConfigByType": {
       "None": {
         "_maxHealth": 2,
+        "_minigameAnnounceDuration": 2000,
+        "_minigameMinDuration": 1500,
+        "_minigameMaxDuration": 2500,
+        "_minigameMinDelay": 3000,
+        "_minigameMaxDelay": 4000,
+        "_minigameFailStunDuration": 1000,
         "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
@@ -152,6 +158,12 @@
       },
       "Rabbit": {
         "_maxHealth": 2,
+        "_minigameAnnounceDuration": 2000,
+        "_minigameMinDuration": 1500,
+        "_minigameMaxDuration": 2500,
+        "_minigameMinDelay": 3000,
+        "_minigameMaxDelay": 4000,
+        "_minigameFailStunDuration": 1000,
         "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
@@ -169,6 +181,12 @@
       },
       "Angel": {
         "_maxHealth": 2,
+        "_minigameAnnounceDuration": 2000,
+        "_minigameMinDuration": 1500,
+        "_minigameMaxDuration": 2500,
+        "_minigameMinDelay": 3000,
+        "_minigameMaxDelay": 4000,
+        "_minigameFailStunDuration": 1000,
         "_movementSpeedMultiplier": 1.1,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
@@ -186,6 +204,12 @@
       },
       "Spider": {
         "_maxHealth": 2,
+        "_minigameAnnounceDuration": 2000,
+        "_minigameMinDuration": 1500,
+        "_minigameMaxDuration": 2500,
+        "_minigameMinDelay": 3000,
+        "_minigameMaxDelay": 4000,
+        "_minigameFailStunDuration": 1000,
         "_movementSpeedMultiplier": 1.1,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
@@ -203,6 +227,12 @@
       },
       "GolemEarth": {
         "_maxHealth": 2,
+        "_minigameAnnounceDuration": 2000,
+        "_minigameMinDuration": 1500,
+        "_minigameMaxDuration": 2500,
+        "_minigameMinDelay": 3000,
+        "_minigameMaxDelay": 4000,
+        "_minigameFailStunDuration": 1000,
         "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 3.0,
         "_interactionMultiplierByType": {
