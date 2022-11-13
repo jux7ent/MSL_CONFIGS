@@ -262,7 +262,7 @@
       "LightCampfire": {
         "_radius": 5.0,
         "_angleInDeg": 360.0,
-        "_durationInMills": 5000,
+        "_durationInMills": 15000,
         "_resetProgressOnStop": false,
         "_maxConcurrentUsages": 4
       },
