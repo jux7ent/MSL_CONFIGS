@@ -159,8 +159,8 @@
       "Rabbit": {
         "_maxHealth": 2,
         "_minigameAnnounceDuration": 2000,
-        "_minigameMinDuration": 1500,
-        "_minigameMaxDuration": 2500,
+        "_minigameMinDuration": 6000,
+        "_minigameMaxDuration": 10000,
         "_minigameMinDelay": 3000,
         "_minigameMaxDelay": 4000,
         "_minigameFailStunDuration": 1000,
@@ -182,8 +182,8 @@
       "Angel": {
         "_maxHealth": 2,
         "_minigameAnnounceDuration": 2000,
-        "_minigameMinDuration": 1500,
-        "_minigameMaxDuration": 2500,
+        "_minigameMinDuration": 6000,
+        "_minigameMaxDuration": 10000,
         "_minigameMinDelay": 3000,
         "_minigameMaxDelay": 4000,
         "_minigameFailStunDuration": 1000,
@@ -205,8 +205,8 @@
       "Spider": {
         "_maxHealth": 2,
         "_minigameAnnounceDuration": 2000,
-        "_minigameMinDuration": 1500,
-        "_minigameMaxDuration": 2500,
+        "_minigameMinDuration": 6000,
+        "_minigameMaxDuration": 10000,
         "_minigameMinDelay": 3000,
         "_minigameMaxDelay": 4000,
         "_minigameFailStunDuration": 1000,
@@ -228,8 +228,8 @@
       "GolemEarth": {
         "_maxHealth": 2,
         "_minigameAnnounceDuration": 2000,
-        "_minigameMinDuration": 1500,
-        "_minigameMaxDuration": 2500,
+        "_minigameMinDuration": 6000,
+        "_minigameMaxDuration": 10000,
         "_minigameMinDelay": 3000,
         "_minigameMaxDelay": 4000,
         "_minigameFailStunDuration": 1000,
