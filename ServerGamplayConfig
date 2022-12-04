@@ -1,7 +1,7 @@
 {
   "_charactersConfig": {
-    "_baseCatcherMovementSpeed": 4.0,
-    "_baseCatcherRotationSpeed": 8.0,
+    "_baseCatcherMovementSpeed": 3.0,
+    "_baseCatcherRotationSpeed": 10.0,
     "_catcherConfigByType": {
       "None": {
         "_attackRadius": 3.0,
@@ -114,7 +114,7 @@
         "_attackDurationInMills": 833,
         "_successAttackAnimationDuration": 1500,
         "_failedAttackAnimationDuration": 800,
-        "_movementSpeedMultiplier": 1.2,
+        "_movementSpeedMultiplier": 1.05,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
           "None": 0.3,
@@ -130,8 +130,8 @@
         }
       }
     },
-    "_baseEscapeeMovementSpeed": 3.2,
-    "_baseEscapeeRotationSpeed": 8.0,
+    "_baseEscapeeMovementSpeed": 2.5,
+    "_baseEscapeeRotationSpeed": 10.0,
     "_escapeeConfigByType": {
       "None": {
         "_maxHealth": 2,
@@ -187,7 +187,7 @@
         "_minigameMinDelay": 3000,
         "_minigameMaxDelay": 4000,
         "_minigameFailStunDuration": 1000,
-        "_movementSpeedMultiplier": 1.1,
+        "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
           "None": 1.0,
@@ -210,7 +210,7 @@
         "_minigameMinDelay": 3000,
         "_minigameMaxDelay": 4000,
         "_minigameFailStunDuration": 1000,
-        "_movementSpeedMultiplier": 1.1,
+        "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
           "None": 1.0,
