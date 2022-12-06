@@ -1,7 +1,7 @@
 {
   "_charactersConfig": {
     "_baseCatcherMovementSpeed": 2.9,
-    "_baseCatcherRotationSpeed": 50.0,
+    "_baseCatcherRotationSpeed": 0.5,
     "_catcherConfigByType": {
       "None": {
         "_attackRadius": 3.0,
@@ -131,16 +131,16 @@
       }
     },
     "_baseEscapeeMovementSpeed": 2.75,
-    "_baseEscapeeRotationSpeed": 50.0,
+    "_baseEscapeeRotationSpeed": 0.5,
     "_escapeeConfigByType": {
       "None": {
         "_maxHealth": 2,
         "_minigameAnnounceDuration": 2000,
         "_minigameMinDuration": 1500,
         "_minigameMaxDuration": 2500,
-        "_minigameMinDelay": 3000,
-        "_minigameMaxDelay": 4000,
-        "_minigameFailStunDuration": 1000,
+        "_minigameMinDelay": 8000,
+        "_minigameMaxDelay": 12000,
+        "_minigameFailStunDuration": 2000,
         "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 50.0,
         "_interactionMultiplierByType": {
@@ -260,7 +260,7 @@
         "_maxConcurrentUsages": 1
       },
       "LightCampfire": {
-        "_radius": 5.0,
+        "_radius": 2.0,
         "_angleInDeg": 360.0,
         "_durationInMills": 60000,
         "_resetProgressOnStop": false,
