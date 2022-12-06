@@ -382,7 +382,7 @@
       "_cooldownInMills": 5000
     },
     "_angelHealAbilityConfig": {
-      "_radius": 5.0,
+      "_radius": 10.0,
       "_preparationDurationInMills": 1500,
       "_durationInMills": 500,
       "_cooldownInMills": 10000
