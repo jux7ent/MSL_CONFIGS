@@ -130,7 +130,7 @@
         }
       }
     },
-    "_baseEscapeeMovementSpeed": 2.5,
+    "_baseEscapeeMovementSpeed": 2.75,
     "_baseEscapeeRotationSpeed": 50.0,
     "_escapeeConfigByType": {
       "None": {
