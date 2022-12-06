@@ -377,9 +377,9 @@
       "_cooldownInMills": 3000,
     },
     "_mimicryToEscapeeConfig": {
-      "_preparationDurationInMills": 900,
+      "_preparationDurationInMills": 500,
       "_durationInMills": 0,
-      "_cooldownInMills": 5000
+      "_cooldownInMills": 30000
     },
     "_angelHealAbilityConfig": {
       "_radius": 10.0,
@@ -414,12 +414,12 @@
       "_durationInMills": 5000
     },
     "_jumpBuffConfig": {
-      "_movementMultiplier": 3.0,
+      "_movementMultiplier": 2.0,
       "_rotationMultiplier": -0.9,
       "_durationInMills": 300
     },
     "_injuranceBuffConfig": {
-      "_movementSpeedMultiplier": -0.3
+      "_movementSpeedMultiplier": -0.1
     },
     "_shockBuffConfig": {
       "_movementSpeedMultiplier": 0.8,
