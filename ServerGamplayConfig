@@ -374,7 +374,7 @@
     "_echoLocationConfig": {
       "_preparationDurationInMills": 1000,
       "_durationInMills": 8000,
-      "_cooldownInMills": 30000
+      "_cooldownInMills": 1000,
     },
     "_mimicryToEscapeeConfig": {
       "_preparationDurationInMills": 900,
