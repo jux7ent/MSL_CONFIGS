@@ -10,7 +10,7 @@
         "_successAttackAnimationDuration": 1500,
         "_failedAttackAnimationDuration": 800,
         "_movementSpeedMultiplier": 1.0,
-        "_rotationSpeedMultiplier": 1.0,
+        "_rotationSpeedMultiplier": 5.0,
         "_interactionMultiplierByType": {
           "None": 0.3,
           "LightCampfire": 0.3,
@@ -142,7 +142,7 @@
         "_minigameMaxDelay": 4000,
         "_minigameFailStunDuration": 1000,
         "_movementSpeedMultiplier": 1.0,
-        "_rotationSpeedMultiplier": 1.0,
+        "_rotationSpeedMultiplier": 5.0,
         "_interactionMultiplierByType": {
           "None": 1.0,
           "LightCampfire": 1.0,
