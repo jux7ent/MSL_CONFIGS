@@ -1,7 +1,7 @@
 {
   "_charactersConfig": {
     "_baseCatcherMovementSpeed": 2.9,
-    "_baseCatcherRotationSpeed": 0.5,
+    "_baseCatcherRotationSpeed": 0.1,
     "_catcherConfigByType": {
       "None": {
         "_attackRadius": 3.0,
@@ -131,7 +131,7 @@
       }
     },
     "_baseEscapeeMovementSpeed": 2.75,
-    "_baseEscapeeRotationSpeed": 0.5,
+    "_baseEscapeeRotationSpeed": 0.1,
     "_escapeeConfigByType": {
       "None": {
         "_maxHealth": 2,
