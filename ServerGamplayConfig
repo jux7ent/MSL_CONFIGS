@@ -373,8 +373,8 @@
     },
     "_echoLocationConfig": {
       "_preparationDurationInMills": 1000,
-      "_durationInMills": 5000,
-      "_cooldownInMills": 6000,
+      "_durationInMills": 2000,
+      "_cooldownInMills": 3000,
     },
     "_mimicryToEscapeeConfig": {
       "_preparationDurationInMills": 900,
