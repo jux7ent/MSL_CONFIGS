@@ -442,5 +442,5 @@
       "_stunRadius": 3.0
     }
   },
-  "_startGameDelayInMills": 5000
+  "_startGameDelayInMills": 10000
 }
