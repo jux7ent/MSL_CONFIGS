@@ -341,11 +341,11 @@
     "_fireballAbilityConfig": {
       "_projectileMaxLiveDurationInMills": 2000,
       "_projectileMovementSpeed": 10.0,
-      "_projectileInteractionRadius": 2.0,
+      "_projectileInteractionRadius": 1.5,
       "_delayBeforeProjectileDestroyingInMills": 0,
       "_preparationDurationInMills": 0,
       "_durationInMills": 0,
-      "_cooldownInMills": 10000
+      "_cooldownInMills": 5000
     },
     "_hookAbilityConfig": {
       "_projectileMaxLiveDurationInMills": 2000,
@@ -354,22 +354,22 @@
       "_delayBeforeProjectileDestroyingInMills": 0,
       "_preparationDurationInMills": 0,
       "_durationInMills": 0,
-      "_cooldownInMills": 10000
+      "_cooldownInMills": 5000
     },
     "_throwRockAbilityConfig": {
       "_projectileMaxLiveDurationInMills": 2000,
       "_projectileMovementSpeed": 10.0,
-      "_projectileInteractionRadius": 3.0,
+      "_projectileInteractionRadius": 1.5,
       "_delayBeforeProjectileDestroyingInMills": 0,
       "_preparationDurationInMills": 0,
       "_durationInMills": 0,
-      "_cooldownInMills": 10000
+      "_cooldownInMills": 5000
     },
     "_rollAbilityConfig": {
       "_isImmuneToAttacks": false,
       "_preparationDurationInMills": 0,
       "_durationInMills": 5000,
-      "_cooldownInMills": 10000
+      "_cooldownInMills": 6000
     },
     "_echoLocationConfig": {
       "_preparationDurationInMills": 1000,
@@ -385,7 +385,7 @@
       "_radius": 10.0,
       "_preparationDurationInMills": 1500,
       "_durationInMills": 500,
-      "_cooldownInMills": 10000
+      "_cooldownInMills": 5000
     },
     "_jumpShakeAbilityConfig": {
       "_shakeRadius": 3.0,
@@ -396,11 +396,11 @@
     "_spiderWebAbilityConfig": {
       "_projectileMaxLiveDurationInMills": 800,
       "_projectileMovementSpeed": 20.0,
-      "_projectileInteractionRadius": 3.0,
+      "_projectileInteractionRadius": 1.2,
       "_delayBeforeProjectileDestroyingInMills": 0,
       "_preparationDurationInMills": 0,
       "_durationInMills": 0,
-      "_cooldownInMills": 10000
+      "_cooldownInMills": 4000
     }
   },
   "_buffsConfig": {
