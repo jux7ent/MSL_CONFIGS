@@ -341,7 +341,7 @@
     "_fireballAbilityConfig": {
       "_projectileMaxLiveDurationInMills": 2000,
       "_projectileMovementSpeed": 10.0,
-      "_projectileInteractionRadius": 3.0,
+      "_projectileInteractionRadius": 2.0,
       "_delayBeforeProjectileDestroyingInMills": 0,
       "_preparationDurationInMills": 0,
       "_durationInMills": 0,
