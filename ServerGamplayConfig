@@ -267,65 +267,65 @@
         "_maxConcurrentUsages": 4
       },
       "PutOutCampfire": {
-        "_radius": 5.0,
+        "_radius": 2.0,
         "_angleInDeg": 360.0,
         "_durationInMills": 2000,
         "_resetProgressOnStop": true,
         "_maxConcurrentUsages": 1
       },
       "TeleportEscapeeInCage": {
-        "_radius": 5.0,
+        "_radius": 2.0,
         "_angleInDeg": 360.0,
         "_durationInMills": 3000,
         "_resetProgressOnStop": true,
         "_maxConcurrentUsages": 1
       },
       "HealEscapeeTeammate": {
-        "_radius": 5.0,
+        "_radius": 2.0,
         "_angleInDeg": 360.0,
         "_durationInMills": 4000,
         "_resetProgressOnStop": true,
         "_maxConcurrentUsages": 1
       },
       "ReleaseEscapeeFromCage": {
-        "_radius": 5.0,
+        "_radius": 2.0,
         "_angleInDeg": 360.0,
-        "_durationInMills": 4000,
+        "_durationInMills": 5000,
         "_resetProgressOnStop": true,
         "_maxConcurrentUsages": 1
       },
       "OpenGate": {
-        "_radius": 5.0,
+        "_radius": 2.0,
         "_angleInDeg": 360.0,
-        "_durationInMills": 20000,
+        "_durationInMills": 30000,
         "_resetProgressOnStop": false,
         "_maxConcurrentUsages": 4
       },
       "PutObstacle": {
-        "_radius": 5.0,
+        "_radius": 2.0,
         "_angleInDeg": 360.0,
-        "_durationInMills": 1000,
+        "_durationInMills": 500,
         "_resetProgressOnStop": true,
         "_maxConcurrentUsages": 1
       },
       "DestroyObstacle": {
-        "_radius": 5.0,
+        "_radius": 2.0,
         "_angleInDeg": 360.0,
         "_durationInMills": 5000,
         "_resetProgressOnStop": true,
         "_maxConcurrentUsages": 1
       },
       "SelfHealing": {
-        "_radius": 5.0,
+        "_radius": 2.0,
         "_angleInDeg": 360.0,
         "_durationInMills": 8000,
         "_resetProgressOnStop": true,
         "_maxConcurrentUsages": 1
       },
       "Teleport": {
-        "_radius": 5.0,
+        "_radius": 2.0,
         "_angleInDeg": 360.0,
-        "_durationInMills": 1000,
+        "_durationInMills": 500,
         "_resetProgressOnStop": true,
         "_maxConcurrentUsages": 1
       }
@@ -409,9 +409,9 @@
       "_durationInMills": 5000
     },
     "_rollBuffConfig": {
-      "_movementBuffMultiplier": 0.5,
-      "_rotationBuffMultiplier": -0.3,
-      "_durationInMills": 3000
+      "_movementBuffMultiplier": 0.4,
+      "_rotationBuffMultiplier": -0.2,
+      "_durationInMills": 4000
     },
     "_jumpBuffConfig": {
       "_movementMultiplier": 2.0,
