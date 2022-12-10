@@ -283,7 +283,7 @@
       "HealEscapeeTeammate": {
         "_radius": 5.0,
         "_angleInDeg": 360.0,
-        "_durationInMills": 8000,
+        "_durationInMills": 4000,
         "_resetProgressOnStop": true,
         "_maxConcurrentUsages": 1
       },
@@ -304,7 +304,7 @@
       "PutObstacle": {
         "_radius": 5.0,
         "_angleInDeg": 360.0,
-        "_durationInMills": 2500,
+        "_durationInMills": 1000,
         "_resetProgressOnStop": true,
         "_maxConcurrentUsages": 1
       },
@@ -325,7 +325,7 @@
       "Teleport": {
         "_radius": 5.0,
         "_angleInDeg": 360.0,
-        "_durationInMills": 2000,
+        "_durationInMills": 1000,
         "_resetProgressOnStop": true,
         "_maxConcurrentUsages": 1
       }
@@ -339,42 +339,42 @@
       "_cooldownInMills": 5000
     },
     "_fireballAbilityConfig": {
-      "_projectileMaxLiveDurationInMills": 2000,
-      "_projectileMovementSpeed": 10.0,
+      "_projectileMaxLiveDurationInMills": 1500,
+      "_projectileMovementSpeed": 8.0,
       "_projectileInteractionRadius": 1.5,
       "_delayBeforeProjectileDestroyingInMills": 0,
       "_preparationDurationInMills": 0,
       "_durationInMills": 0,
-      "_cooldownInMills": 5000
+      "_cooldownInMills": 20000
     },
     "_hookAbilityConfig": {
-      "_projectileMaxLiveDurationInMills": 2000,
-      "_projectileMovementSpeed": 10.0,
+      "_projectileMaxLiveDurationInMills": 1500,
+      "_projectileMovementSpeed": 6.0,
       "_projectileInteractionRadius": 1.5,
       "_delayBeforeProjectileDestroyingInMills": 0,
       "_preparationDurationInMills": 0,
       "_durationInMills": 0,
-      "_cooldownInMills": 5000
+      "_cooldownInMills": 20000
     },
     "_throwRockAbilityConfig": {
-      "_projectileMaxLiveDurationInMills": 2000,
-      "_projectileMovementSpeed": 10.0,
+      "_projectileMaxLiveDurationInMills": 1500,
+      "_projectileMovementSpeed": 8.0,
       "_projectileInteractionRadius": 1.5,
       "_delayBeforeProjectileDestroyingInMills": 0,
       "_preparationDurationInMills": 0,
       "_durationInMills": 0,
-      "_cooldownInMills": 5000
+      "_cooldownInMills": 30000
     },
     "_rollAbilityConfig": {
       "_isImmuneToAttacks": false,
       "_preparationDurationInMills": 0,
-      "_durationInMills": 5000,
-      "_cooldownInMills": 6000
+      "_durationInMills": 3000,
+      "_cooldownInMills": 20000
     },
     "_echoLocationConfig": {
       "_preparationDurationInMills": 1000,
-      "_durationInMills": 2000,
-      "_cooldownInMills": 3000,
+      "_durationInMills": 5000,
+      "_cooldownInMills": 30000,
     },
     "_mimicryToEscapeeConfig": {
       "_preparationDurationInMills": 500,
@@ -385,13 +385,13 @@
       "_radius": 10.0,
       "_preparationDurationInMills": 1500,
       "_durationInMills": 500,
-      "_cooldownInMills": 5000
+      "_cooldownInMills": 45000
     },
     "_jumpShakeAbilityConfig": {
       "_shakeRadius": 3.0,
       "_preparationDurationInMills": 750,
       "_durationInMills": 750,
-      "_cooldownInMills": 5000
+      "_cooldownInMills": 20000
     },
     "_spiderWebAbilityConfig": {
       "_projectileMaxLiveDurationInMills": 800,
@@ -400,7 +400,7 @@
       "_delayBeforeProjectileDestroyingInMills": 0,
       "_preparationDurationInMills": 0,
       "_durationInMills": 0,
-      "_cooldownInMills": 4000
+      "_cooldownInMills": 20000
     }
   },
   "_buffsConfig": {
