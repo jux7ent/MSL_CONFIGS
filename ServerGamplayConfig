@@ -25,11 +25,11 @@
         }
       },
       "SkeletonGiant": {
-        "_attackRadius": 2.0,
-        "_attackAngleInDeg": 60.0,
+        "_attackRadius": 1.5,
+        "_attackAngleInDeg": 45.0,
         "_attackDurationInMills": 500,
         "_successAttackAnimationDuration": 2000,
-        "_failedAttackAnimationDuration": 200,
+        "_failedAttackAnimationDuration": 250,
         "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 3.0,
         "_interactionMultiplierByType": {
@@ -46,11 +46,11 @@
         }
       },
       "BatLord": {
-        "_attackRadius": 2.0,
-        "_attackAngleInDeg": 60.0,
+        "_attackRadius": 1.5,
+        "_attackAngleInDeg": 45.0,
         "_attackDurationInMills": 500,
         "_successAttackAnimationDuration": 2000,
-        "_failedAttackAnimationDuration": 200,
+        "_failedAttackAnimationDuration": 250,
         "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
@@ -67,11 +67,11 @@
         }
       },
       "SkeletonMage": {
-        "_attackRadius": 2.0,
-        "_attackAngleInDeg": 60.0,
+        "_attackRadius": 1.5,
+        "_attackAngleInDeg": 45.0,
         "_attackDurationInMills": 500,
         "_successAttackAnimationDuration": 2000,
-        "_failedAttackAnimationDuration": 200,
+        "_failedAttackAnimationDuration": 250,
         "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
@@ -88,11 +88,11 @@
         }
       },
       "Reaper": {
-        "_attackRadius": 2.0,
-        "_attackAngleInDeg": 60.0,
+        "_attackRadius": 1.5,
+        "_attackAngleInDeg": 45.0,
         "_attackDurationInMills": 500,
         "_successAttackAnimationDuration": 2000,
-        "_failedAttackAnimationDuration": 200,
+        "_failedAttackAnimationDuration": 250,
         "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
@@ -109,11 +109,11 @@
         }
       },
       "DeathMage": {
-        "_attackRadius": 2.0,
-        "_attackAngleInDeg": 60.0,
+        "_attackRadius": 1.5,
+        "_attackAngleInDeg": 45.0,
         "_attackDurationInMills": 500,
         "_successAttackAnimationDuration": 1500,
-        "_failedAttackAnimationDuration": 150,
+        "_failedAttackAnimationDuration": 200,
         "_movementSpeedMultiplier": 1.05,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
