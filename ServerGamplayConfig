@@ -382,10 +382,10 @@
       "_cooldownInMills": 30000
     },
     "_angelHealAbilityConfig": {
-      "_radius": 10.0,
+      "_radius": 8.0,
       "_preparationDurationInMills": 1500,
       "_durationInMills": 500,
-      "_cooldownInMills": 45000
+      "_cooldownInMills": 60000
     },
     "_jumpShakeAbilityConfig": {
       "_shakeRadius": 4.0,
@@ -433,7 +433,7 @@
       "_durationInMills": 20000
     },
     "_stunnedByRockConfig": {
-      "_durationInMills": 3000
+      "_durationInMills": 2000
     }
   },
   "_specificConfig": {
