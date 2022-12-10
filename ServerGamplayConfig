@@ -388,10 +388,10 @@
       "_cooldownInMills": 45000
     },
     "_jumpShakeAbilityConfig": {
-      "_shakeRadius": 3.0,
-      "_preparationDurationInMills": 750,
-      "_durationInMills": 750,
-      "_cooldownInMills": 20000
+      "_shakeRadius": 4.0,
+      "_preparationDurationInMills": 150,
+      "_durationInMills": 1000,
+      "_cooldownInMills": 25000
     },
     "_spiderWebAbilityConfig": {
       "_projectileMaxLiveDurationInMills": 800,
