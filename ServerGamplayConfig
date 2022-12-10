@@ -388,7 +388,7 @@
       "_cooldownInMills": 60000
     },
     "_jumpShakeAbilityConfig": {
-      "_shakeRadius": 4.0,
+      "_shakeRadius": 2.0,
       "_preparationDurationInMills": 150,
       "_durationInMills": 1000,
       "_cooldownInMills": 25000
