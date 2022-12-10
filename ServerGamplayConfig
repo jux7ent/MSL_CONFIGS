@@ -158,12 +158,12 @@
       },
       "Rabbit": {
         "_maxHealth": 2,
-        "_minigameAnnounceDuration": 500,
-        "_minigameMinDuration": 6000,
-        "_minigameMaxDuration": 10000,
-        "_minigameMinDelay": 500,
-        "_minigameMaxDelay": 1000,
-        "_minigameFailStunDuration": 1000,
+        "_minigameAnnounceDuration": 2000,
+        "_minigameMinDuration": 3000,
+        "_minigameMaxDuration": 4000,
+        "_minigameMinDelay": 5000,
+        "_minigameMaxDelay": 8000,
+        "_minigameFailStunDuration": 1500,
         "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
@@ -182,11 +182,11 @@
       "Angel": {
         "_maxHealth": 2,
         "_minigameAnnounceDuration": 2000,
-        "_minigameMinDuration": 6000,
-        "_minigameMaxDuration": 10000,
-        "_minigameMinDelay": 3000,
-        "_minigameMaxDelay": 4000,
-        "_minigameFailStunDuration": 1000,
+        "_minigameMinDuration": 3000,
+        "_minigameMaxDuration": 4000,
+        "_minigameMinDelay": 5000,
+        "_minigameMaxDelay": 8000,
+        "_minigameFailStunDuration": 1500,
         "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
@@ -205,11 +205,11 @@
       "Spider": {
         "_maxHealth": 2,
         "_minigameAnnounceDuration": 2000,
-        "_minigameMinDuration": 6000,
-        "_minigameMaxDuration": 10000,
-        "_minigameMinDelay": 3000,
-        "_minigameMaxDelay": 4000,
-        "_minigameFailStunDuration": 1000,
+        "_minigameMinDuration": 3000,
+        "_minigameMaxDuration": 4000,
+        "_minigameMinDelay": 5000,
+        "_minigameMaxDelay": 8000,
+        "_minigameFailStunDuration": 1500,
         "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
@@ -228,11 +228,11 @@
       "GolemEarth": {
         "_maxHealth": 2,
         "_minigameAnnounceDuration": 2000,
-        "_minigameMinDuration": 6000,
-        "_minigameMaxDuration": 10000,
-        "_minigameMinDelay": 3000,
-        "_minigameMaxDelay": 4000,
-        "_minigameFailStunDuration": 1000,
+        "_minigameMinDuration": 3000,
+        "_minigameMaxDuration": 4000,
+        "_minigameMinDelay": 5000,
+        "_minigameMaxDelay": 8000,
+        "_minigameFailStunDuration": 1500,
         "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 3.0,
         "_interactionMultiplierByType": {
@@ -409,9 +409,9 @@
       "_durationInMills": 8000
     },
     "_rollBuffConfig": {
-      "_movementBuffMultiplier": 1.5,
-      "_rotationBuffMultiplier": -0.7,
-      "_durationInMills": 5000
+      "_movementBuffMultiplier": 0.5,
+      "_rotationBuffMultiplier": -0.3,
+      "_durationInMills": 3000
     },
     "_jumpBuffConfig": {
       "_movementMultiplier": 2.0,
@@ -422,18 +422,18 @@
       "_movementSpeedMultiplier": -0.1
     },
     "_shockBuffConfig": {
-      "_movementSpeedMultiplier": 0.8,
+      "_movementSpeedMultiplier": 0.5,
       "_durationInMills": 5000
     },
     "_slowAfterShakeBuffConfig": {
-      "_movementSpeedMultiplier": -0.4,
+      "_movementSpeedMultiplier": -0.2,
       "_durationInMills": 4000
     },
     "_stunnedByZeroHealthConfig": {
       "_durationInMills": 20000
     },
     "_stunnedByRockConfig": {
-      "_durationInMills": 5000
+      "_durationInMills": 3000
     }
   },
   "_specificConfig": {
