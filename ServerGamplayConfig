@@ -269,7 +269,7 @@
       "PutOutCampfire": {
         "_radius": 2.0,
         "_angleInDeg": 360.0,
-        "_durationInMills": 2000,
+        "_durationInMills": 3200,
         "_resetProgressOnStop": true,
         "_maxConcurrentUsages": 1
       },
