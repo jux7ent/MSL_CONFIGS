@@ -25,8 +25,8 @@
         }
       },
       "SkeletonGiant": {
-        "_attackRadius": 2.0,
-        "_attackAngleInDeg": 90.0,
+        "_attackRadius": 1.5,
+        "_attackAngleInDeg": 70.0,
         "_attackDurationInMills": 500,
         "_successAttackAnimationDuration": 2000,
         "_failedAttackAnimationDuration": 250,
@@ -46,8 +46,8 @@
         }
       },
       "BatLord": {
-        "_attackRadius": 2.0,
-        "_attackAngleInDeg": 90.0,
+        "_attackRadius": 1.5,
+        "_attackAngleInDeg": 70.0,
         "_attackDurationInMills": 500,
         "_successAttackAnimationDuration": 2000,
         "_failedAttackAnimationDuration": 250,
@@ -67,8 +67,8 @@
         }
       },
       "SkeletonMage": {
-        "_attackRadius": 2.0,
-        "_attackAngleInDeg": 90.0,
+        "_attackRadius": 1.5,
+        "_attackAngleInDeg": 70.0,
         "_attackDurationInMills": 500,
         "_successAttackAnimationDuration": 2000,
         "_failedAttackAnimationDuration": 250,
@@ -88,8 +88,8 @@
         }
       },
       "Reaper": {
-        "_attackRadius": 2.0,
-        "_attackAngleInDeg": 90.0,
+        "_attackRadius": 1.5,
+        "_attackAngleInDeg": 70.0,
         "_attackDurationInMills": 500,
         "_successAttackAnimationDuration": 2000,
         "_failedAttackAnimationDuration": 250,
@@ -109,8 +109,8 @@
         }
       },
       "DeathMage": {
-        "_attackRadius": 2.0,
-        "_attackAngleInDeg": 90.0,
+        "_attackRadius": 1.5,
+        "_attackAngleInDeg": 70.0,
         "_attackDurationInMills": 500,
         "_successAttackAnimationDuration": 1500,
         "_failedAttackAnimationDuration": 200,
