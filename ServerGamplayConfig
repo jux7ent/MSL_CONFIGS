@@ -438,8 +438,19 @@
   },
   "_specificConfig": {
     "ObstacleConfig": {
-      "_stunDurationInMills": 3000,
+      "_successZoneSize01": 3000,
       "_stunRadius": 3.0
+    }
+  },
+   "_minigamesConfig": {
+    "_calibrationMinigameConfig": {
+      "_successZoneSize01": 0.3,
+      "_perfectSuccessZoneSize01": 0.4,
+      "_movingArrowSize01": 0.05,
+      "_knobSpeed": 600.0,
+      "_knobMaxSpeed": 1200.0,
+      "_acceleration": 0.0,
+      "_waitAfterHideMinigameInSec": 0.0
     }
   },
   "_startGameDelayInMills": 10000
