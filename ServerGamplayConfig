@@ -458,13 +458,23 @@
       "_waitAfterHideMinigameInSec": 0.0
       }
     },
-     "_indicatorsConfig": {
-      "_indicatorDataConfig": {
-       "_durationCampfireWasLit": 4000,
-       "_durationEscapeeWasFreed": 4000,
-       "_durationCalibrationFailed": 4000,
-       "_durationEchoLocation": 4000,
-       "_durationEscapeeCaged": 4000
+  "_indicatorsConfig": {
+    "_indicatorsDataConfig": {
+      "CampfireWasLit": {
+        "_duration": 4000
+      },
+      "EscapeeWasFreed": {
+        "_duration": 4000
+      },
+      "CalibrationFailed": {
+        "_duration": 4000 
+      },
+      "EchoLocation": {
+        "_duration": 4000
+      },
+      "EscapeeCaged": {
+        "_duration": 4000
+      },   
     }
   },
   "_startGameDelayInMills": 10000
