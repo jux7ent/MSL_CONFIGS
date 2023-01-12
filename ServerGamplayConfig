@@ -447,7 +447,7 @@
       "_stunRadius": 3.0
     }
   },
-   "_minigamesConfig": {
+   "_minigameConfig": {
     "_calibrationMinigameConfig": {
       "_successZoneSize01": 0.3,
       "_perfectSuccessZoneSize01": 0.4,
