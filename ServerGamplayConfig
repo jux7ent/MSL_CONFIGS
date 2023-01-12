@@ -451,7 +451,8 @@
       "_knobMaxSpeed": 1200.0,
       "_acceleration": 0.0,
       "_waitAfterHideMinigameInSec": 0.0
-    }
+      }
+    },
      "_indicatorsConfig": {
       "_indicatorDataConfig": {
        "_durationCampfireWasLit": 4.0,
