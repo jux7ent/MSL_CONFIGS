@@ -460,11 +460,11 @@
     },
      "_indicatorsConfig": {
       "_indicatorDataConfig": {
-       "_durationCampfireWasLit": 4.0,
-       "_durationEscapeeWasFreed": 4.0,
-       "_durationCalibrationFailed": 4.0,
-       "_durationEchoLocation": 4.0,
-       "_durationEscapeeCaged": 4.0
+       "_durationCampfireWasLit": 4000,
+       "_durationEscapeeWasFreed": 4000,
+       "_durationCalibrationFailed": 4000,
+       "_durationEchoLocation": 4000,
+       "_durationEscapeeCaged": 4000
     }
   },
   "_startGameDelayInMills": 10000
