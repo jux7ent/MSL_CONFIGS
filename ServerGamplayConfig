@@ -141,7 +141,7 @@
         "_minigameMinDelay": 8000,
         "_minigameMaxDelay": 12000,
         "_minigameFailStunDuration": 2000,
-        "_eliminationDuration": 30000,
+        "_eliminationDuration": 80000,
         "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 50.0,
         "_interactionMultiplierByType": {
@@ -165,7 +165,7 @@
         "_minigameMinDelay": 5000,
         "_minigameMaxDelay": 8000,
         "_minigameFailStunDuration": 1500,
-        "_eliminationDuration": 30000,
+        "_eliminationDuration": 60000,
         "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
@@ -189,7 +189,7 @@
         "_minigameMinDelay": 5000,
         "_minigameMaxDelay": 8000,
         "_minigameFailStunDuration": 1500,
-        "_eliminationDuration": 30000,
+        "_eliminationDuration": 60000,
         "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
@@ -213,7 +213,7 @@
         "_minigameMinDelay": 5000,
         "_minigameMaxDelay": 8000,
         "_minigameFailStunDuration": 1500,
-        "_eliminationDuration": 30000,
+        "_eliminationDuration": 60000,
         "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
@@ -237,7 +237,7 @@
         "_minigameMinDelay": 5000,
         "_minigameMaxDelay": 8000,
         "_minigameFailStunDuration": 1500,
-        "_eliminationDuration": 30000,
+        "_eliminationDuration": 80000,
         "_movementSpeedMultiplier": 1.0,
         "_rotationSpeedMultiplier": 3.0,
         "_interactionMultiplierByType": {
