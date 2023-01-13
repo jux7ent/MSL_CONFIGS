@@ -262,77 +262,88 @@
         "_angleInDeg": 360.0,
         "_durationInMills": 5000,
         "_resetProgressOnStop": false,
-        "_maxConcurrentUsages": 1
+        "_maxConcurrentUsages": 1,
+        "_cooldownInMills": 0
       },
       "LightCampfire": {
         "_radius": 2.0,
         "_angleInDeg": 360.0,
         "_durationInMills": 60000,
         "_resetProgressOnStop": false,
-        "_maxConcurrentUsages": 4
+        "_maxConcurrentUsages": 4,
+        "_cooldownInMills": 0
       },
       "PutOutCampfire": {
         "_radius": 2.0,
         "_angleInDeg": 360.0,
         "_durationInMills": 3200,
         "_resetProgressOnStop": true,
-        "_maxConcurrentUsages": 1
+        "_maxConcurrentUsages": 1,
+        "_cooldownInMills": 0
       },
       "TeleportEscapeeInCage": {
         "_radius": 2.0,
         "_angleInDeg": 360.0,
         "_durationInMills": 3000,
         "_resetProgressOnStop": true,
-        "_maxConcurrentUsages": 1
+        "_maxConcurrentUsages": 1,
+        "_cooldownInMills": 0
       },
       "HealEscapeeTeammate": {
         "_radius": 2.0,
         "_angleInDeg": 360.0,
         "_durationInMills": 4000,
         "_resetProgressOnStop": true,
-        "_maxConcurrentUsages": 1
+        "_maxConcurrentUsages": 1,
+        "_cooldownInMills": 0
       },
       "ReleaseEscapeeFromCage": {
         "_radius": 2.0,
         "_angleInDeg": 360.0,
         "_durationInMills": 5000,
         "_resetProgressOnStop": true,
-        "_maxConcurrentUsages": 1
+        "_maxConcurrentUsages": 1,
+        "_cooldownInMills": 0
       },
       "OpenGate": {
         "_radius": 2.0,
         "_angleInDeg": 360.0,
         "_durationInMills": 30000,
         "_resetProgressOnStop": false,
-        "_maxConcurrentUsages": 4
+        "_maxConcurrentUsages": 4,
+        "_cooldownInMills": 0
       },
       "PutObstacle": {
         "_radius": 2.0,
         "_angleInDeg": 360.0,
         "_durationInMills": 500,
         "_resetProgressOnStop": true,
-        "_maxConcurrentUsages": 1
+        "_maxConcurrentUsages": 1,
+        "_cooldownInMills": 0
       },
       "DestroyObstacle": {
         "_radius": 2.0,
         "_angleInDeg": 360.0,
         "_durationInMills": 5000,
         "_resetProgressOnStop": true,
-        "_maxConcurrentUsages": 1
+        "_maxConcurrentUsages": 1,
+        "_cooldownInMills": 0
       },
       "SelfHealing": {
         "_radius": 2.0,
         "_angleInDeg": 360.0,
         "_durationInMills": 8000,
         "_resetProgressOnStop": true,
-        "_maxConcurrentUsages": 1
+        "_maxConcurrentUsages": 1,
+        "_cooldownInMills": 0
       },
       "Teleport": {
         "_radius": 2.0,
         "_angleInDeg": 360.0,
         "_durationInMills": 500,
         "_resetProgressOnStop": true,
-        "_maxConcurrentUsages": 1
+        "_maxConcurrentUsages": 1,
+        "_cooldownInMills": 10000
       }
     }
   },
