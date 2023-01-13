@@ -467,7 +467,7 @@
         "_duration": 4000
       },
       "EscapeeWasFreed": {
-        "_duration": 4000
+        "_duration": 10000
       },
       "CalibrationFailed": {
         "_duration": 4000 
