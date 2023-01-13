@@ -447,7 +447,7 @@
       "_stunRadius": 3.0
     },
     "TeleportConfig": {
-      "_teleportActivationDurationInMills": 10000
+      "_teleportActivationDurationInMills": 2000
     }
   },
    "_minigameConfig": {
