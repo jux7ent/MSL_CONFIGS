@@ -445,7 +445,7 @@
     "ObstacleConfig": {
       "_successZoneSize01": 3000,
       "_stunRadius": 3.0
-    }
+    },
     "TeleportConfig": {
       "_teleportActivationDurationInMills": 10000
     }
