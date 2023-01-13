@@ -452,10 +452,10 @@
   },
    "_minigameConfig": {
     "_calibrationMinigameConfig": {
-      "_successZoneSize01": 0.3,
-      "_perfectSuccessZoneSize01": 0.4,
+      "_successZoneSize01": 0.1,
+      "_perfectSuccessZoneSize01": 0.5,
       "_movingArrowSize01": 0.05,
-      "_knobSpeed": 600.0,
+      "_knobSpeed": 900.0,
       "_knobMaxSpeed": 1200.0,
       "_acceleration": 0.0,
       "_waitAfterHideMinigameInSec": 0.0
@@ -464,19 +464,19 @@
   "_indicatorsConfig": {
     "_indicatorsDataConfig": {
       "CampfireWasLit": {
-        "_duration": 4000
+        "_duration": 5000
       },
       "EscapeeWasFreed": {
-        "_duration": 10000
+        "_duration": 5000
       },
       "CalibrationFailed": {
-        "_duration": 4000 
+        "_duration": 5000 
       },
       "EchoLocation": {
-        "_duration": 4000
+        "_duration": 8000
       },
       "EscapeeCaged": {
-        "_duration": 4000
+        "_duration": 8000
       }  
     }
   },
