@@ -477,7 +477,7 @@
       },
       "EscapeeCaged": {
         "_duration": 4000
-      },   
+      }  
     }
   },
   "_startGameDelayInMills": 10000
