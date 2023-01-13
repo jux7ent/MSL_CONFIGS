@@ -160,8 +160,8 @@
       "Rabbit": {
         "_maxHealth": 2,
         "_minigameAnnounceDuration": 2000,
-        "_minigameMinDuration": 800,
-        "_minigameMaxDuration": 1500,
+        "_minigameMinDuration": 1000,
+        "_minigameMaxDuration": 2000,
         "_minigameMinDelay": 5000,
         "_minigameMaxDelay": 8000,
         "_minigameFailStunDuration": 1500,
@@ -208,8 +208,8 @@
       "Spider": {
         "_maxHealth": 2,
         "_minigameAnnounceDuration": 2000,
-        "_minigameMinDuration": 800,
-        "_minigameMaxDuration": 1500,
+        "_minigameMinDuration": 1000,
+        "_minigameMaxDuration": 2000,
         "_minigameMinDelay": 5000,
         "_minigameMaxDelay": 8000,
         "_minigameFailStunDuration": 1500,
@@ -232,8 +232,8 @@
       "GolemEarth": {
         "_maxHealth": 2,
         "_minigameAnnounceDuration": 2000,
-        "_minigameMinDuration": 800,
-        "_minigameMaxDuration": 1500,
+        "_minigameMinDuration": 1000,
+        "_minigameMaxDuration": 2000,
         "_minigameMinDelay": 5000,
         "_minigameMaxDelay": 8000,
         "_minigameFailStunDuration": 1500,
@@ -424,14 +424,14 @@
       "_durationInMills": 300
     },
     "_injuranceBuffConfig": {
-      "_movementSpeedMultiplier": -0.1
+      "_movementSpeedMultiplier": -0.3
     },
     "_shockBuffConfig": {
       "_movementSpeedMultiplier": 0.5,
       "_durationInMills": 5000
     },
     "_slowAfterShakeBuffConfig": {
-      "_movementSpeedMultiplier": -0.2,
+      "_movementSpeedMultiplier": -0.6,
       "_durationInMills": 4000
     },
     "_stunnedByZeroHealthConfig": {
@@ -443,7 +443,7 @@
   },
   "_specificConfig": {
     "ObstacleConfig": {
-      "_successZoneSize01": 3000,
+      "_stunDurationInMills": 5000,
       "_stunRadius": 3.0
     },
     "TeleportConfig": {
@@ -455,7 +455,7 @@
       "_successZoneSize01": 0.1,
       "_perfectSuccessZoneSize01": 0.5,
       "_movingArrowSize01": 0.05,
-      "_knobSpeed": 900.0,
+      "_knobSpeed": 750.0,
       "_knobMaxSpeed": 1200.0,
       "_acceleration": 0.0,
       "_waitAfterHideMinigameInSec": 0.0
