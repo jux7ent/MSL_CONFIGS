@@ -1,484 +1,484 @@
 {
-  "_charactersConfig": {
-    "_baseCatcherMovementSpeed": 4.3,
-    "_baseCatcherRotationSpeed": 30.0,
-    "_catcherConfigByType": {
-      "None": {
-        "_attackRadius": 3.0,
-        "_attackAngleInDeg": 90.0,
-        "_attackDurationInMills": 833,
-        "_successAttackAnimationDuration": 1500,
-        "_failedAttackAnimationDuration": 800,
-        "_movementSpeedMultiplier": 1.0,
-        "_rotationSpeedMultiplier": 50.0,
-        "_interactionMultiplierByType": {
-          "None": 0.3,
-          "LightCampfire": 0.3,
-          "PutOutCampfire": 0.3,
-          "TeleportEscapeeInCage": 0.3,
-          "HealEscapeeTeammate": 0.3,
-          "ReleaseEscapeeFromCage": 0.3,
-          "OpenGate": 0.3,
-          "PutObstacle": 0.3,
-          "DestroyObstacle": 0.3,
-          "SelfHealing": 0.3
-        }
-      },
-      "SkeletonGiant": {
-        "_attackRadius": 1.5,
-        "_attackAngleInDeg": 70.0,
-        "_attackDurationInMills": 500,
-        "_successAttackAnimationDuration": 2000,
-        "_failedAttackAnimationDuration": 250,
-        "_movementSpeedMultiplier": 1.0,
-        "_rotationSpeedMultiplier": 3.0,
-        "_interactionMultiplierByType": {
-          "None": 1.0,
-          "LightCampfire": 1.0,
-          "PutOutCampfire": 1.0,
-          "TeleportEscapeeInCage": 1.0,
-          "HealEscapeeTeammate": 1.0,
-          "ReleaseEscapeeFromCage": 1.0,
-          "OpenGate": 1.0,
-          "PutObstacle": 1.0,
-          "DestroyObstacle": 1.0,
-          "SelfHealing": 1.0
-        }
-      },
-      "BatLord": {
-        "_attackRadius": 2,
-        "_attackAngleInDeg": 70.0,
-        "_attackDurationInMills": 500,
-        "_successAttackAnimationDuration": 2000,
-        "_failedAttackAnimationDuration": 250,
-        "_movementSpeedMultiplier": 0.5,
-        "_rotationSpeedMultiplier": 1.0,
-        "_interactionMultiplierByType": {
-          "None": 1.0,
-          "LightCampfire": 1.0,
-          "PutOutCampfire": 1.0,
-          "TeleportEscapeeInCage": 1.0,
-          "HealEscapeeTeammate": 1.0,
-          "ReleaseEscapeeFromCage": 1.0,
-          "OpenGate": 1.0,
-          "PutObstacle": 1.0,
-          "DestroyObstacle": 1.0,
-          "SelfHealing": 1.0
-        }
-      },
-      "SkeletonMage": {
-        "_attackRadius": 1.5,
-        "_attackAngleInDeg": 70.0,
-        "_attackDurationInMills": 500,
-        "_successAttackAnimationDuration": 2000,
-        "_failedAttackAnimationDuration": 250,
-        "_movementSpeedMultiplier": 0.3,
-        "_rotationSpeedMultiplier": 1.0,
-        "_interactionMultiplierByType": {
-          "None": 1.0,
-          "LightCampfire": 1.0,
-          "PutOutCampfire": 1.0,
-          "TeleportEscapeeInCage": 1.0,
-          "HealEscapeeTeammate": 1.0,
-          "ReleaseEscapeeFromCage": 1.0,
-          "OpenGate": 1.0,
-          "PutObstacle": 1.0,
-          "DestroyObstacle": 1.0,
-          "SelfHealing": 1.0
-        }
-      },
-      "Reaper": {
-        "_attackRadius": 1.5,
-        "_attackAngleInDeg": 70.0,
-        "_attackDurationInMills": 500,
-        "_successAttackAnimationDuration": 2000,
-        "_failedAttackAnimationDuration": 250,
-        "_movementSpeedMultiplier": 1.0,
-        "_rotationSpeedMultiplier": 1.0,
-        "_interactionMultiplierByType": {
-          "None": 1.0,
-          "LightCampfire": 1.0,
-          "PutOutCampfire": 1.0,
-          "TeleportEscapeeInCage": 1.0,
-          "HealEscapeeTeammate": 1.0,
-          "ReleaseEscapeeFromCage": 1.0,
-          "OpenGate": 1.0,
-          "PutObstacle": 1.0,
-          "DestroyObstacle": 1.0,
-          "SelfHealing": 1.0
-        }
-      },
-      "DeathMage": {
-        "_attackRadius": 1.5,
-        "_attackAngleInDeg": 70.0,
-        "_attackDurationInMills": 500,
-        "_successAttackAnimationDuration": 1500,
-        "_failedAttackAnimationDuration": 200,
-        "_movementSpeedMultiplier": 1.05,
-        "_rotationSpeedMultiplier": 1.0,
-        "_interactionMultiplierByType": {
-          "None": 0.3,
-          "LightCampfire": 0.3,
-          "PutOutCampfire": 0.3,
-          "TeleportEscapeeInCage": 0.3,
-          "HealEscapeeTeammate": 0.3,
-          "ReleaseEscapeeFromCage": 0.3,
-          "OpenGate": 0.3,
-          "PutObstacle": 0.3,
-          "DestroyObstacle": 0.3,
-          "SelfHealing": 0.3
-        }
-      }
-    },
-    "_baseEscapeeMovementSpeed": 2.75,
-    "_baseEscapeeRotationSpeed": 30.0,
-    "_escapeeConfigByType": {
-      "None": {
-        "_maxHealth": 2,
-        "_minigameAnnounceDuration": 2000,
-        "_minigameMinDuration": 1500,
-        "_minigameMaxDuration": 2500,
-        "_minigameMinDelay": 8000,
-        "_minigameMaxDelay": 12000,
-        "_minigameFailStunDuration": 2000,
-        "_eliminationDuration": 80000,
-        "_movementSpeedMultiplier": 1.0,
-        "_rotationSpeedMultiplier": 50.0,
-        "_interactionMultiplierByType": {
-          "None": 1.0,
-          "LightCampfire": 1.0,
-          "PutOutCampfire": 1.0,
-          "TeleportEscapeeInCage": 1.0,
-          "HealEscapeeTeammate": 1.0,
-          "ReleaseEscapeeFromCage": 1.0,
-          "OpenGate": 1.0,
-          "PutObstacle": 1.0,
-          "DestroyObstacle": 1.0,
-          "SelfHealing": 1.0
-        }
-      },
-      "Rabbit": {
-        "_maxHealth": 2,
-        "_minigameAnnounceDuration": 2000,
-        "_minigameMinDuration": 1000,
-        "_minigameMaxDuration": 2000,
-        "_minigameMinDelay": 5000,
-        "_minigameMaxDelay": 8000,
-        "_minigameFailStunDuration": 1500,
-        "_eliminationDuration": 60000,
-        "_movementSpeedMultiplier": 1.0,
-        "_rotationSpeedMultiplier": 1.0,
-        "_interactionMultiplierByType": {
-          "None": 1.0,
-          "LightCampfire": 1.0,
-          "PutOutCampfire": 1.0,
-          "TeleportEscapeeInCage": 1.0,
-          "HealEscapeeTeammate": 1.0,
-          "ReleaseEscapeeFromCage": 1.0,
-          "OpenGate": 1.0,
-          "PutObstacle": 1.0,
-          "DestroyObstacle": 1.0,
-          "SelfHealing": 1.0
-        }
-      },
-      "Angel": {
-        "_maxHealth": 2,
-        "_minigameAnnounceDuration": 2000,
-        "_minigameMinDuration": 3000,
-        "_minigameMaxDuration": 4000,
-        "_minigameMinDelay": 5000,
-        "_minigameMaxDelay": 8000,
-        "_minigameFailStunDuration": 1500,
-        "_eliminationDuration": 60000,
-        "_movementSpeedMultiplier": 1.0,
-        "_rotationSpeedMultiplier": 1.0,
-        "_interactionMultiplierByType": {
-          "None": 1.0,
-          "LightCampfire": 1.0,
-          "PutOutCampfire": 1.0,
-          "TeleportEscapeeInCage": 1.0,
-          "HealEscapeeTeammate": 1.0,
-          "ReleaseEscapeeFromCage": 1.0,
-          "OpenGate": 1.0,
-          "PutObstacle": 1.0,
-          "DestroyObstacle": 1.0,
-          "SelfHealing": 1.0
-        }
-      },
-      "Spider": {
-        "_maxHealth": 2,
-        "_minigameAnnounceDuration": 2000,
-        "_minigameMinDuration": 1000,
-        "_minigameMaxDuration": 2000,
-        "_minigameMinDelay": 5000,
-        "_minigameMaxDelay": 8000,
-        "_minigameFailStunDuration": 1500,
-        "_eliminationDuration": 60000,
-        "_movementSpeedMultiplier": 1.0,
-        "_rotationSpeedMultiplier": 1.0,
-        "_interactionMultiplierByType": {
-          "None": 1.0,
-          "LightCampfire": 1.0,
-          "PutOutCampfire": 1.0,
-          "TeleportEscapeeInCage": 1.0,
-          "HealEscapeeTeammate": 1.0,
-          "ReleaseEscapeeFromCage": 1.0,
-          "OpenGate": 1.0,
-          "PutObstacle": 1.0,
-          "DestroyObstacle": 1.0,
-          "SelfHealing": 1.0
-        }
-      },
-      "GolemEarth": {
-        "_maxHealth": 2,
-        "_minigameAnnounceDuration": 2000,
-        "_minigameMinDuration": 1000,
-        "_minigameMaxDuration": 2000,
-        "_minigameMinDelay": 5000,
-        "_minigameMaxDelay": 8000,
-        "_minigameFailStunDuration": 1500,
-        "_eliminationDuration": 80000,
-        "_movementSpeedMultiplier": 1.0,
-        "_rotationSpeedMultiplier": 3.0,
-        "_interactionMultiplierByType": {
-          "None": 0.3,
-          "LightCampfire": 0.3,
-          "PutOutCampfire": 0.3,
-          "TeleportEscapeeInCage": 0.3,
-          "HealEscapeeTeammate": 0.3,
-          "ReleaseEscapeeFromCage": 0.3,
-          "OpenGate": 0.3,
-          "PutObstacle": 0.3,
-          "DestroyObstacle": 0.3,
-          "SelfHealing": 0.3
-        }
-      }
-    }
-  },
-  "_interactionsConfig": {
-    "_interactionDataConfigByType": {
-      "None": {
-        "_radius": 5.0,
-        "_angleInDeg": 360.0,
-        "_durationInMills": 5000,
-        "_resetProgressOnStop": false,
-        "_maxConcurrentUsages": 1
-      },
-      "LightCampfire": {
-        "_radius": 2.0,
-        "_angleInDeg": 360.0,
-        "_durationInMills": 60000,
-        "_resetProgressOnStop": false,
-        "_maxConcurrentUsages": 4
-      },
-      "PutOutCampfire": {
-        "_radius": 2.0,
-        "_angleInDeg": 360.0,
-        "_durationInMills": 3200,
-        "_resetProgressOnStop": true,
-        "_maxConcurrentUsages": 1
-      },
-      "TeleportEscapeeInCage": {
-        "_radius": 2.0,
-        "_angleInDeg": 360.0,
-        "_durationInMills": 3000,
-        "_resetProgressOnStop": true,
-        "_maxConcurrentUsages": 1
-      },
-      "HealEscapeeTeammate": {
-        "_radius": 2.0,
-        "_angleInDeg": 360.0,
-        "_durationInMills": 4000,
-        "_resetProgressOnStop": true,
-        "_maxConcurrentUsages": 1
-      },
-      "ReleaseEscapeeFromCage": {
-        "_radius": 2.0,
-        "_angleInDeg": 360.0,
-        "_durationInMills": 5000,
-        "_resetProgressOnStop": true,
-        "_maxConcurrentUsages": 1
-      },
-      "OpenGate": {
-        "_radius": 2.0,
-        "_angleInDeg": 360.0,
-        "_durationInMills": 30000,
-        "_resetProgressOnStop": false,
-        "_maxConcurrentUsages": 4
-      },
-      "PutObstacle": {
-        "_radius": 2.0,
-        "_angleInDeg": 360.0,
-        "_durationInMills": 500,
-        "_resetProgressOnStop": true,
-        "_maxConcurrentUsages": 1
-      },
-      "DestroyObstacle": {
-        "_radius": 2.0,
-        "_angleInDeg": 360.0,
-        "_durationInMills": 5000,
-        "_resetProgressOnStop": true,
-        "_maxConcurrentUsages": 1
-      },
-      "SelfHealing": {
-        "_radius": 2.0,
-        "_angleInDeg": 360.0,
-        "_durationInMills": 8000,
-        "_resetProgressOnStop": true,
-        "_maxConcurrentUsages": 1
-      },
-      "Teleport": {
-        "_radius": 2.0,
-        "_angleInDeg": 360.0,
-        "_durationInMills": 500,
-        "_resetProgressOnStop": true,
-        "_maxConcurrentUsages": 1
-      }
-    }
-  },
-  "_abilitiesConfig": {
-    "_rageAbilityConfig": {
-      "_movementSpeedBuffMultiplier": 1.0,
-      "_preparationDurationInMills": 0,
-      "_durationInMills": 5000,
-      "_cooldownInMills": 5000
-    },
-    "_fireballAbilityConfig": {
-      "_projectileMaxLiveDurationInMills": 1500,
-      "_projectileMovementSpeed": 6.0,
-      "_projectileInteractionRadius": 1,
-      "_delayBeforeProjectileDestroyingInMills": 0,
-      "_preparationDurationInMills": 0,
-      "_durationInMills": 0,
-      "_cooldownInMills": 20000
-    },
-    "_hookAbilityConfig": {
-      "_projectileMaxLiveDurationInMills": 1500,
-      "_projectileMovementSpeed": 6.0,
-      "_projectileInteractionRadius": 1,
-      "_delayBeforeProjectileDestroyingInMills": 0,
-      "_preparationDurationInMills": 0,
-      "_durationInMills": 0,
-      "_cooldownInMills": 20000
-    },
-    "_throwRockAbilityConfig": {
-      "_projectileMaxLiveDurationInMills": 1500,
-      "_projectileMovementSpeed": 6.0,
-      "_projectileInteractionRadius": 1,
-      "_delayBeforeProjectileDestroyingInMills": 0,
-      "_preparationDurationInMills": 0,
-      "_durationInMills": 0,
-      "_cooldownInMills": 30000
-    },
-    "_rollAbilityConfig": {
-      "_isImmuneToAttacks": false,
-      "_preparationDurationInMills": 0,
-      "_durationInMills": 3000,
-      "_cooldownInMills": 20000
-    },
-    "_echoLocationConfig": {
-      "_preparationDurationInMills": 1000,
-      "_durationInMills": 5000,
-      "_cooldownInMills": 30000,
-    },
-    "_mimicryToEscapeeConfig": {
-      "_preparationDurationInMills": 500,
-      "_durationInMills": 0,
-      "_cooldownInMills": 30000
-    },
-    "_angelHealAbilityConfig": {
-      "_radius": 8.0,
-      "_preparationDurationInMills": 1400,
-      "_durationInMills": 500,
-      "_cooldownInMills": 60000
-    },
-    "_jumpShakeAbilityConfig": {
-      "_shakeRadius": 2.0,
-      "_preparationDurationInMills": 150,
-      "_durationInMills": 1000,
-      "_cooldownInMills": 25000
-    },
-    "_spiderWebAbilityConfig": {
-      "_projectileMaxLiveDurationInMills": 800,
-      "_projectileMovementSpeed": 20.0,
-      "_projectileInteractionRadius": 1.2,
-      "_delayBeforeProjectileDestroyingInMills": 0,
-      "_preparationDurationInMills": 0,
-      "_durationInMills": 0,
-      "_cooldownInMills": 20000
-    }
-  },
-  "_buffsConfig": {
-    "_angelHealBuffConfig": {
-      "_movementSpeedMultiplier": 0.25,
-      "_durationInMills": 5000
-    },
-    "_rollBuffConfig": {
-      "_movementBuffMultiplier": 0.4,
-      "_rotationBuffMultiplier": -0.2,
-      "_durationInMills": 4000
-    },
-    "_jumpBuffConfig": {
-      "_movementMultiplier": 2.0,
-      "_rotationMultiplier": -0.9,
-      "_durationInMills": 300
-    },
-    "_injuranceBuffConfig": {
-      "_movementSpeedMultiplier": -0.3
-    },
-    "_shockBuffConfig": {
-      "_movementSpeedMultiplier": 0.5,
-      "_durationInMills": 5000
-    },
-    "_slowAfterShakeBuffConfig": {
-      "_movementSpeedMultiplier": -0.6,
-      "_durationInMills": 4000
-    },
-    "_stunnedByZeroHealthConfig": {
-      "_durationInMills": 20000
-    },
-    "_stunnedByRockConfig": {
-      "_durationInMills": 4000
-    }
-  },
-  "_specificConfig": {
-    "ObstacleConfig": {
-      "_stunDurationInMills": 5000,
-      "_stunRadius": 3.0
-    },
-    "TeleportConfig": {
-      "_teleportActivationDurationInMills": 2000
-    }
-  },
-   "_minigameConfig": {
-    "_calibrationMinigameConfig": {
-      "_successZoneSize01": 0.1,
-      "_perfectSuccessZoneSize01": 0.5,
-      "_movingArrowSize01": 0.05,
-      "_knobSpeed": 750.0,
-      "_knobMaxSpeed": 1200.0,
-      "_acceleration": 0.0,
-      "_waitAfterHideMinigameInSec": 0.0
-      }
-    },
-  "_indicatorsConfig": {
-    "_indicatorsDataConfig": {
-      "CampfireWasLit": {
-        "_duration": 5000
-      },
-      "EscapeeWasFreed": {
-        "_duration": 5000
-      },
-      "CalibrationFailed": {
-        "_duration": 5000 
-      },
-      "EchoLocation": {
-        "_duration": 8000
-      },
-      "EscapeeCaged": {
-        "_duration": 8000
-      }  
-    }
-  },
-  "_startGameDelayInMills": 10000
+	"_charactersConfig": {
+		"_baseCatcherMovementSpeed": 4.3,
+		"_baseCatcherRotationSpeed": 30.0,
+		"_catcherConfigByType": {
+			"None": {
+				"_attackRadius": 3.0,
+				"_attackAngleInDeg": 90.0,
+				"_attackDurationInMills": 833,
+				"_successAttackAnimationDuration": 1500,
+				"_failedAttackAnimationDuration": 800,
+				"_movementSpeedMultiplier": 1.0,
+				"_rotationSpeedMultiplier": 50.0,
+				"_interactionMultiplierByType": {
+					"None": 0.3,
+					"LightCampfire": 0.3,
+					"PutOutCampfire": 0.3,
+					"TeleportEscapeeInCage": 0.3,
+					"HealEscapeeTeammate": 0.3,
+					"ReleaseEscapeeFromCage": 0.3,
+					"OpenGate": 0.3,
+					"PutObstacle": 0.3,
+					"DestroyObstacle": 0.3,
+					"SelfHealing": 0.3
+				}
+			},
+			"SkeletonGiant": {
+				"_attackRadius": 1.5,
+				"_attackAngleInDeg": 70.0,
+				"_attackDurationInMills": 500,
+				"_successAttackAnimationDuration": 2000,
+				"_failedAttackAnimationDuration": 250,
+				"_movementSpeedMultiplier": 1.0,
+				"_rotationSpeedMultiplier": 3.0,
+				"_interactionMultiplierByType": {
+					"None": 1.0,
+					"LightCampfire": 1.0,
+					"PutOutCampfire": 1.0,
+					"TeleportEscapeeInCage": 1.0,
+					"HealEscapeeTeammate": 1.0,
+					"ReleaseEscapeeFromCage": 1.0,
+					"OpenGate": 1.0,
+					"PutObstacle": 1.0,
+					"DestroyObstacle": 1.0,
+					"SelfHealing": 1.0
+				}
+			},
+			"BatLord": {
+				"_attackRadius": 2,
+				"_attackAngleInDeg": 70.0,
+				"_attackDurationInMills": 500,
+				"_successAttackAnimationDuration": 2000,
+				"_failedAttackAnimationDuration": 250,
+				"_movementSpeedMultiplier": 0.5,
+				"_rotationSpeedMultiplier": 1.0,
+				"_interactionMultiplierByType": {
+					"None": 1.0,
+					"LightCampfire": 1.0,
+					"PutOutCampfire": 1.0,
+					"TeleportEscapeeInCage": 1.0,
+					"HealEscapeeTeammate": 1.0,
+					"ReleaseEscapeeFromCage": 1.0,
+					"OpenGate": 1.0,
+					"PutObstacle": 1.0,
+					"DestroyObstacle": 1.0,
+					"SelfHealing": 1.0
+				}
+			},
+			"SkeletonMage": {
+				"_attackRadius": 1.5,
+				"_attackAngleInDeg": 70.0,
+				"_attackDurationInMills": 500,
+				"_successAttackAnimationDuration": 2000,
+				"_failedAttackAnimationDuration": 250,
+				"_movementSpeedMultiplier": 0.3,
+				"_rotationSpeedMultiplier": 1.0,
+				"_interactionMultiplierByType": {
+					"None": 1.0,
+					"LightCampfire": 1.0,
+					"PutOutCampfire": 1.0,
+					"TeleportEscapeeInCage": 1.0,
+					"HealEscapeeTeammate": 1.0,
+					"ReleaseEscapeeFromCage": 1.0,
+					"OpenGate": 1.0,
+					"PutObstacle": 1.0,
+					"DestroyObstacle": 1.0,
+					"SelfHealing": 1.0
+				}
+			},
+			"Reaper": {
+				"_attackRadius": 1.5,
+				"_attackAngleInDeg": 70.0,
+				"_attackDurationInMills": 500,
+				"_successAttackAnimationDuration": 2000,
+				"_failedAttackAnimationDuration": 250,
+				"_movementSpeedMultiplier": 1.0,
+				"_rotationSpeedMultiplier": 1.0,
+				"_interactionMultiplierByType": {
+					"None": 1.0,
+					"LightCampfire": 1.0,
+					"PutOutCampfire": 1.0,
+					"TeleportEscapeeInCage": 1.0,
+					"HealEscapeeTeammate": 1.0,
+					"ReleaseEscapeeFromCage": 1.0,
+					"OpenGate": 1.0,
+					"PutObstacle": 1.0,
+					"DestroyObstacle": 1.0,
+					"SelfHealing": 1.0
+				}
+			},
+			"DeathMage": {
+				"_attackRadius": 1.5,
+				"_attackAngleInDeg": 70.0,
+				"_attackDurationInMills": 500,
+				"_successAttackAnimationDuration": 1500,
+				"_failedAttackAnimationDuration": 200,
+				"_movementSpeedMultiplier": 1.05,
+				"_rotationSpeedMultiplier": 1.0,
+				"_interactionMultiplierByType": {
+					"None": 0.3,
+					"LightCampfire": 0.3,
+					"PutOutCampfire": 0.3,
+					"TeleportEscapeeInCage": 0.3,
+					"HealEscapeeTeammate": 0.3,
+					"ReleaseEscapeeFromCage": 0.3,
+					"OpenGate": 0.3,
+					"PutObstacle": 0.3,
+					"DestroyObstacle": 0.3,
+					"SelfHealing": 0.3
+				}
+			}
+		},
+		"_baseEscapeeMovementSpeed": 2.75,
+		"_baseEscapeeRotationSpeed": 30.0,
+		"_escapeeConfigByType": {
+			"None": {
+				"_maxHealth": 2,
+				"_minigameAnnounceDuration": 2000,
+				"_minigameMinDuration": 1500,
+				"_minigameMaxDuration": 2500,
+				"_minigameMinDelay": 8000,
+				"_minigameMaxDelay": 12000,
+				"_minigameFailStunDuration": 2000,
+				"_eliminationDuration": 80000,
+				"_movementSpeedMultiplier": 1.0,
+				"_rotationSpeedMultiplier": 50.0,
+				"_interactionMultiplierByType": {
+					"None": 1.0,
+					"LightCampfire": 1.0,
+					"PutOutCampfire": 1.0,
+					"TeleportEscapeeInCage": 1.0,
+					"HealEscapeeTeammate": 1.0,
+					"ReleaseEscapeeFromCage": 1.0,
+					"OpenGate": 1.0,
+					"PutObstacle": 1.0,
+					"DestroyObstacle": 1.0,
+					"SelfHealing": 1.0
+				}
+			},
+			"Rabbit": {
+				"_maxHealth": 2,
+				"_minigameAnnounceDuration": 2000,
+				"_minigameMinDuration": 1000,
+				"_minigameMaxDuration": 2000,
+				"_minigameMinDelay": 5000,
+				"_minigameMaxDelay": 8000,
+				"_minigameFailStunDuration": 1500,
+				"_eliminationDuration": 60000,
+				"_movementSpeedMultiplier": 1.0,
+				"_rotationSpeedMultiplier": 1.0,
+				"_interactionMultiplierByType": {
+					"None": 1.0,
+					"LightCampfire": 1.0,
+					"PutOutCampfire": 1.0,
+					"TeleportEscapeeInCage": 1.0,
+					"HealEscapeeTeammate": 1.0,
+					"ReleaseEscapeeFromCage": 1.0,
+					"OpenGate": 1.0,
+					"PutObstacle": 1.0,
+					"DestroyObstacle": 1.0,
+					"SelfHealing": 1.0
+				}
+			},
+			"Angel": {
+				"_maxHealth": 2,
+				"_minigameAnnounceDuration": 2000,
+				"_minigameMinDuration": 3000,
+				"_minigameMaxDuration": 4000,
+				"_minigameMinDelay": 5000,
+				"_minigameMaxDelay": 8000,
+				"_minigameFailStunDuration": 1500,
+				"_eliminationDuration": 60000,
+				"_movementSpeedMultiplier": 1.0,
+				"_rotationSpeedMultiplier": 1.0,
+				"_interactionMultiplierByType": {
+					"None": 1.0,
+					"LightCampfire": 1.0,
+					"PutOutCampfire": 1.0,
+					"TeleportEscapeeInCage": 1.0,
+					"HealEscapeeTeammate": 1.0,
+					"ReleaseEscapeeFromCage": 1.0,
+					"OpenGate": 1.0,
+					"PutObstacle": 1.0,
+					"DestroyObstacle": 1.0,
+					"SelfHealing": 1.0
+				}
+			},
+			"Spider": {
+				"_maxHealth": 2,
+				"_minigameAnnounceDuration": 2000,
+				"_minigameMinDuration": 1000,
+				"_minigameMaxDuration": 2000,
+				"_minigameMinDelay": 5000,
+				"_minigameMaxDelay": 8000,
+				"_minigameFailStunDuration": 1500,
+				"_eliminationDuration": 60000,
+				"_movementSpeedMultiplier": 1.0,
+				"_rotationSpeedMultiplier": 1.0,
+				"_interactionMultiplierByType": {
+					"None": 1.0,
+					"LightCampfire": 1.0,
+					"PutOutCampfire": 1.0,
+					"TeleportEscapeeInCage": 1.0,
+					"HealEscapeeTeammate": 1.0,
+					"ReleaseEscapeeFromCage": 1.0,
+					"OpenGate": 1.0,
+					"PutObstacle": 1.0,
+					"DestroyObstacle": 1.0,
+					"SelfHealing": 1.0
+				}
+			},
+			"GolemEarth": {
+				"_maxHealth": 2,
+				"_minigameAnnounceDuration": 2000,
+				"_minigameMinDuration": 1000,
+				"_minigameMaxDuration": 2000,
+				"_minigameMinDelay": 5000,
+				"_minigameMaxDelay": 8000,
+				"_minigameFailStunDuration": 1500,
+				"_eliminationDuration": 80000,
+				"_movementSpeedMultiplier": 1.0,
+				"_rotationSpeedMultiplier": 3.0,
+				"_interactionMultiplierByType": {
+					"None": 0.3,
+					"LightCampfire": 0.3,
+					"PutOutCampfire": 0.3,
+					"TeleportEscapeeInCage": 0.3,
+					"HealEscapeeTeammate": 0.3,
+					"ReleaseEscapeeFromCage": 0.3,
+					"OpenGate": 0.3,
+					"PutObstacle": 0.3,
+					"DestroyObstacle": 0.3,
+					"SelfHealing": 0.3
+				}
+			}
+		}
+	},
+	"_interactionsConfig": {
+		"_interactionDataConfigByType": {
+			"None": {
+				"_radius": 5.0,
+				"_angleInDeg": 360.0,
+				"_durationInMills": 5000,
+				"_resetProgressOnStop": false,
+				"_maxConcurrentUsages": 1
+			},
+			"LightCampfire": {
+				"_radius": 2.0,
+				"_angleInDeg": 360.0,
+				"_durationInMills": 60000,
+				"_resetProgressOnStop": false,
+				"_maxConcurrentUsages": 4
+			},
+			"PutOutCampfire": {
+				"_radius": 2.0,
+				"_angleInDeg": 360.0,
+				"_durationInMills": 3200,
+				"_resetProgressOnStop": true,
+				"_maxConcurrentUsages": 1
+			},
+			"TeleportEscapeeInCage": {
+				"_radius": 2.0,
+				"_angleInDeg": 360.0,
+				"_durationInMills": 3000,
+				"_resetProgressOnStop": true,
+				"_maxConcurrentUsages": 1
+			},
+			"HealEscapeeTeammate": {
+				"_radius": 2.0,
+				"_angleInDeg": 360.0,
+				"_durationInMills": 4000,
+				"_resetProgressOnStop": true,
+				"_maxConcurrentUsages": 1
+			},
+			"ReleaseEscapeeFromCage": {
+				"_radius": 2.0,
+				"_angleInDeg": 360.0,
+				"_durationInMills": 5000,
+				"_resetProgressOnStop": true,
+				"_maxConcurrentUsages": 1
+			},
+			"OpenGate": {
+				"_radius": 2.0,
+				"_angleInDeg": 360.0,
+				"_durationInMills": 30000,
+				"_resetProgressOnStop": false,
+				"_maxConcurrentUsages": 4
+			},
+			"PutObstacle": {
+				"_radius": 2.0,
+				"_angleInDeg": 360.0,
+				"_durationInMills": 500,
+				"_resetProgressOnStop": true,
+				"_maxConcurrentUsages": 1
+			},
+			"DestroyObstacle": {
+				"_radius": 2.0,
+				"_angleInDeg": 360.0,
+				"_durationInMills": 5000,
+				"_resetProgressOnStop": true,
+				"_maxConcurrentUsages": 1
+			},
+			"SelfHealing": {
+				"_radius": 2.0,
+				"_angleInDeg": 360.0,
+				"_durationInMills": 8000,
+				"_resetProgressOnStop": true,
+				"_maxConcurrentUsages": 1
+			},
+			"Teleport": {
+				"_radius": 2.0,
+				"_angleInDeg": 360.0,
+				"_durationInMills": 500,
+				"_resetProgressOnStop": true,
+				"_maxConcurrentUsages": 1
+			}
+		}
+	},
+	"_abilitiesConfig": {
+		"_rageAbilityConfig": {
+			"_movementSpeedBuffMultiplier": 1.0,
+			"_preparationDurationInMills": 0,
+			"_durationInMills": 5000,
+			"_cooldownInMills": 5000
+		},
+		"_fireballAbilityConfig": {
+			"_projectileMaxLiveDurationInMills": 1500,
+			"_projectileMovementSpeed": 6.0,
+			"_projectileInteractionRadius": 1,
+			"_delayBeforeProjectileDestroyingInMills": 0,
+			"_preparationDurationInMills": 0,
+			"_durationInMills": 0,
+			"_cooldownInMills": 20000
+		},
+		"_hookAbilityConfig": {
+			"_projectileMaxLiveDurationInMills": 1500,
+			"_projectileMovementSpeed": 6.0,
+			"_projectileInteractionRadius": 1,
+			"_delayBeforeProjectileDestroyingInMills": 0,
+			"_preparationDurationInMills": 0,
+			"_durationInMills": 0,
+			"_cooldownInMills": 20000
+		},
+		"_throwRockAbilityConfig": {
+			"_projectileMaxLiveDurationInMills": 1500,
+			"_projectileMovementSpeed": 6.0,
+			"_projectileInteractionRadius": 1,
+			"_delayBeforeProjectileDestroyingInMills": 0,
+			"_preparationDurationInMills": 0,
+			"_durationInMills": 0,
+			"_cooldownInMills": 30000
+		},
+		"_rollAbilityConfig": {
+			"_isImmuneToAttacks": false,
+			"_preparationDurationInMills": 0,
+			"_durationInMills": 3000,
+			"_cooldownInMills": 20000
+		},
+		"_echoLocationConfig": {
+			"_preparationDurationInMills": 1000,
+			"_durationInMills": 5000,
+			"_cooldownInMills": 30000
+		},
+		"_mimicryToEscapeeConfig": {
+			"_preparationDurationInMills": 500,
+			"_durationInMills": 0,
+			"_cooldownInMills": 30000
+		},
+		"_angelHealAbilityConfig": {
+			"_radius": 8.0,
+			"_preparationDurationInMills": 1400,
+			"_durationInMills": 500,
+			"_cooldownInMills": 60000
+		},
+		"_jumpShakeAbilityConfig": {
+			"_shakeRadius": 2.0,
+			"_preparationDurationInMills": 150,
+			"_durationInMills": 1000,
+			"_cooldownInMills": 25000
+		},
+		"_spiderWebAbilityConfig": {
+			"_projectileMaxLiveDurationInMills": 800,
+			"_projectileMovementSpeed": 20.0,
+			"_projectileInteractionRadius": 1.2,
+			"_delayBeforeProjectileDestroyingInMills": 0,
+			"_preparationDurationInMills": 0,
+			"_durationInMills": 0,
+			"_cooldownInMills": 20000
+		}
+	},
+	"_buffsConfig": {
+		"_angelHealBuffConfig": {
+			"_movementSpeedMultiplier": 0.25,
+			"_durationInMills": 5000
+		},
+		"_rollBuffConfig": {
+			"_movementBuffMultiplier": 0.4,
+			"_rotationBuffMultiplier": -0.2,
+			"_durationInMills": 4000
+		},
+		"_jumpBuffConfig": {
+			"_movementMultiplier": 2.0,
+			"_rotationMultiplier": -0.9,
+			"_durationInMills": 300
+		},
+		"_injuranceBuffConfig": {
+			"_movementSpeedMultiplier": -0.3
+		},
+		"_shockBuffConfig": {
+			"_movementSpeedMultiplier": 0.5,
+			"_durationInMills": 5000
+		},
+		"_slowAfterShakeBuffConfig": {
+			"_movementSpeedMultiplier": -0.6,
+			"_durationInMills": 4000
+		},
+		"_stunnedByZeroHealthConfig": {
+			"_durationInMills": 20000
+		},
+		"_stunnedByRockConfig": {
+			"_durationInMills": 4000
+		}
+	},
+	"_specificConfig": {
+		"ObstacleConfig": {
+			"_stunDurationInMills": 5000,
+			"_stunRadius": 3.0
+		},
+		"TeleportConfig": {
+			"_teleportActivationDurationInMills": 2000
+		}
+	},
+	"_minigameConfig": {
+		"_calibrationMinigameConfig": {
+			"_successZoneSize01": 0.1,
+			"_perfectSuccessZoneSize01": 0.5,
+			"_movingArrowSize01": 0.05,
+			"_knobSpeed": 750.0,
+			"_knobMaxSpeed": 1200.0,
+			"_acceleration": 0.0,
+			"_waitAfterHideMinigameInSec": 0.0
+		}
+	},
+	"_indicatorsConfig": {
+		"_indicatorsDataConfig": {
+			"CampfireWasLit": {
+				"_duration": 5000
+			},
+			"EscapeeWasFreed": {
+				"_duration": 5000
+			},
+			"CalibrationFailed": {
+				"_duration": 5000
+			},
+			"EchoLocation": {
+				"_duration": 8000
+			},
+			"EscapeeCaged": {
+				"_duration": 8000
+			}
+		}
+	},
+	"_startGameDelayInMills": 10000
 }
