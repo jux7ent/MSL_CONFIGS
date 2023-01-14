@@ -46,7 +46,7 @@
         }
       },
       "BatLord": {
-        "_attackRadius": 1.5,
+        "_attackRadius": 2,
         "_attackAngleInDeg": 70.0,
         "_attackDurationInMills": 500,
         "_successAttackAnimationDuration": 2000,
