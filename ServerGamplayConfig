@@ -51,7 +51,7 @@
         "_attackDurationInMills": 500,
         "_successAttackAnimationDuration": 2000,
         "_failedAttackAnimationDuration": 250,
-        "_movementSpeedMultiplier": 1.0,
+        "_movementSpeedMultiplier": 0.5,
         "_rotationSpeedMultiplier": 1.0,
         "_interactionMultiplierByType": {
           "None": 1.0,
